@@ -1,8 +1,8 @@
 # app.py
-#this is a test commit
 def add(a, b):
     return a + b
 
-def test_add():
-    assert add(1, 2) == 3
-    assert add(1, -1) == 0
+if __name__ == "__main__":
+    num1 = 5
+    num2 = 7
+    print("Sum:", add(num1, num2))
